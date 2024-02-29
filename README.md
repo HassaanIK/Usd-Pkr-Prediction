@@ -4,6 +4,7 @@
 This project aims to predict the open and close prices of the US Dollar (USD) in Pakistani Rupees (PKR) based on historical data. The model is built using a Long Short-Term Memory (LSTM) neural network and trained on a dataset containing daily USD to PKR exchange rates from 2004 to 2022.
 
 ## Project Structure
+1. Data Collection: The data used for this project is taken from [Kaggle](https://www.kaggle.com/datasets/ahmadwaleed1/us-dollar-pkr-rupee-dataset20042022).
 1. Data Preprocessing: The dataset is preprocessed to remove unnecessary columns, handle missing values, and create lag features for input sequences.
 2. Model Training: An LSTM model is constructed using PyTorch and trained on the preprocessed data to predict the next day's open and close prices based on a sequence of historical data.
 3. Model Evaluation: The trained model is evaluated using mean squared error (MSE) and accuracy metrics to assess its performance.
